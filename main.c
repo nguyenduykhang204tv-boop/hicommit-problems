@@ -10,6 +10,6 @@ printf("MAT\n");
 printf("NONG\n");
 } else {
 printf("RAT_NONG\n");
-    }
+}
 return 0;
 }
