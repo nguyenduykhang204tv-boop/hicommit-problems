@@ -8,11 +8,11 @@ int main() {
             printf("UNDERWEIGHT\n");
           return 0;
         } 
-        else if (a < 25.0) {
+        else if (a < 24.9999) {
             printf("NORMAL\n");
           return 0;
         } 
-        else if (a < 30.0) {
+        else if (a < 29.9999) {
             printf("OVERWEIGHT\n");
           return 0;
         } 
