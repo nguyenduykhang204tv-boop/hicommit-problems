@@ -2,7 +2,7 @@
 
 int main() {
   float w, h;
-  scanf(""%f,%f", &w, &h) == 2;{
+  if (scanf(""%f,%f", &w, &h) == 2);{
   float h_met=h / 100.0;
   float bmi = w / (h_met* h_met);
   if(bmi < 18.5){
