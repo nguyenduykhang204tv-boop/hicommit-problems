@@ -15,15 +15,12 @@ int main() {
         total = (50 * 1678LL) + (50 * 1734LL) + (k - 100) * 2014LL;
     } 
     else if (k <= 300) {
-        total = (50 * 1678LL) + (50 * 1734LL) + 2536LL;
+        total = (50 * 1678LL) + (50 * 1734LL) + (100 * 2014LL) + (k - 200) * 2536LL;
     } 
     else if (k <= 400) {
-        total = (50 * 1678LL) + (50 * 1734LL) + (100 * 2014LL) + (100 * 2536LL) + (k - 300) * 2834LL;
+        total = (50 * 1678LL) + (50 * 1734LL) + (100 * 2014LL) + (100 * 2536LL) + 2834LL;
     } 
-    else {
-        total = (50 * 1678LL) + (50 * 1734LL) + (100 * 2014LL) + (100 * 2536LL) + (100 * 2834LL) * 2927LL;
-    }
-    printf("%lld\n", total);
+  printf("%lld\n", total);
     
     return 0;
 }
