@@ -22,7 +22,7 @@ int main() {
         printf("D+\n");
     } 
     else if (dtb >= 4.0) {
-        printf("D\n")
+        printf("D\n");
     } 
     else {
         printf("F\n");
